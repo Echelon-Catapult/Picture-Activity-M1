@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+   char name[32] = "LuckyTiger-raw";
+   char hairColor[32] = "Orange";
+   int age = 11;
+   int favNumber = 7;
+
+   printf("Hi my name is %s!\n", name);
+   printf("I have %s hair, and I'm %d years old.\n", hairColor, age);
+   printf("My favorite number is %d. \n", favNumber);
+
+   return 0;
+}
